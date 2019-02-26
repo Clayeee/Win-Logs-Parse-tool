@@ -106,9 +106,9 @@ optional arguments:
 
 ###### ​文件选择界面：
 
-![-s 1](./src/-s 1.png)
+![-s 1](./src/-s1.png)
 
-![-s 2](./src/-s 2.png)
+![-s 2](./src/-s2.png)
 
 ##### 执行`--file`参数：
 
