@@ -19,11 +19,11 @@ from string import Template
 import codecs
 
 ### 命令行参数解析模块 ###
-parse = parser = argparse.ArgumentParser(description="Windows日志解析工具帮助文档！")
+parse = argparse.ArgumentParser(description="Windows日志解析工具帮助文档！")
 parse.add_argument('-s', '--system', help='读取并解析指定的windows日志', action='store_true')
 parse.add_argument('-f', '--file', help='指定一个evtx文件进行解析')
 parse.add_argument('-d', '--dir', help='指定一个目录，解析目录下所有evtx文件(默认为系统日志文件夹)')
-args = parser.parse_args()
+args = parse.parse_args()
 
 ### 常量 ###
 path = 'C:\Windows\System32\winevt\Logs'    # Windows系统安全日志目录
